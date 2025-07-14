@@ -23,7 +23,7 @@ jobs:
       # Step 3: Install dependencies and build the project
       - name: Install dependencies and build the project
         env:
-        NODE_OPTIONS: --openssl-legacy-provider
+          NODE_OPTIONS: --openssl-legacy-provider
         run: |
           npm install postcss@8.4.31
           
